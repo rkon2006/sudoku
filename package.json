@@ -1,0 +1,30 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine": "^2.8.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.4",
+    "path": "^0.12.7",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC"
+}
