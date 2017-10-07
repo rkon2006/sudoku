@@ -16,12 +16,12 @@ export default function getSquare(sudokuMap, row, col) {
     const square = [];
 
     for(let r = minRowIndex, rr = 0; r < maxRowIndex; r++, rr++) {
-        square[rr] = [];
-
         for(let c = minColIndex, cc = 0; c < maxColIndex; c++, cc++) {
-            square[rr].push(sudokuMap[r][c]);
+            square.push(sudokuMap[r][c]);
         }
     }
+
+    console.log(square);
 
     return square;
 }
